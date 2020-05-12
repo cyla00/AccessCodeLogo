@@ -2,11 +2,6 @@
   font-family: Helve;
   src: url("./fonts/HelveticaNeueBd.ttf");
 }
-@font-face {
-  font-family: light;
-  src: url("./fonts/HelveticaLt.ttf");
-}
-
 body{
   background-color: black;
   background-repeat: no-repeat;
@@ -22,6 +17,9 @@ body{
   align-content: center;
   font-family: Helve;
   color: #FFFFFF;
+}
+.ensamble{
+  text-align: center;
 }
 #inline{
   border-bottom: 2px solid white;
