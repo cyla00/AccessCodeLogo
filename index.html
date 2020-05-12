@@ -6,16 +6,13 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body id="body">
-      <div class="ensamble">
-        <p id="accesscode"><span class="bar" id="bar1">&lt</span><span id="inline">access<span id="code">code</span></span><span class="bar" id="bar2">&gt</span><br></p>
+        <p id="accesscode"><span class="bar" id="bar1" onmouseout="school()" onmouseover="school()">&lt</span><span id="inline">access<span id="code">code</span></span><span class="bar" id="bar2" onmouseout="school()" onmouseover="school()">&gt</span><br></p>
         <div class="school">
           <span id="school">school</span>
         </div>
-      </div>
     <script src="./switch.js" charset="utf-8"></script>
     <div class="button">
-        <button type="button" name="button" id="btn1" class="btn">light</button>
-        <button type="button" name="button" id="btn2" class="btn">dark</button>
+        <button type="button" name="button" id="btn1" class="btn" onclick="turnON()">light</button>
     </div>
     <script src="switch.js" charset="utf-8"></script>
   </body>
