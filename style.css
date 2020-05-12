@@ -3,12 +3,12 @@
   src: url("./fonts/HelveticaNeueBd.ttf");
 }
 @font-face {
-  font-family: Helvelt;
+  font-family: light;
   src: url("./fonts/HelveticaLt.ttf");
 }
 
 body{
-  background-color: #151517;
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -36,8 +36,8 @@ body{
   padding-left: 5vw;
 }
 #school{
-  font-size: 2em;
-  letter-spacing: 3em;
+  font-size: 3vh;
+  letter-spacing: 3.3em;
   width: 100vw;
 }
 #code{
@@ -51,7 +51,14 @@ body{
   text-align: center;
   margin-top: 300px;
 }
-#button{
+#btn1{
+  border-radius: 10px;
+  width: 50px;
+  background-color: grey;
+  color: #FFFFFF;
+  outline: none;
+}
+#btn2{
   border-radius: 10px;
   width: 50px;
   background-color: grey;
