@@ -1,10 +1,56 @@
-body{
-  background-position: center;
-  background-attachment: fixed;
-  text-align: center;
-  margin: auto;
+@font-face {
+  font-family: Helve;
+  src: url("./fonts/HelveticaNeueBd.ttf");
 }
-.combo{
-  display: flex;
-  flex-direction: row;
+@font-face {
+  font-family: Helvelt;
+  src: url("./fonts/HelveticaLt.ttf");
+}
+
+body{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 15%;
+  padding-left: 23%;
+  padding-right: 23%;
+  height: 100vh;
+  width: auto;
+  text-align: center;
+  align-content: center;
+  font-family: Helve;
+  color: #FFFFFF;
+}
+#inline{
+  border-bottom: 2px solid white;
+}
+#accesscode{
+  font-size: 5em;
+  letter-spacing: 0.6vw;
+  margin-bottom: 0px;
+}
+.school{
+  text-align: center;
+  padding-left: 5vw;
+}
+#school{
+  font-size: 2em;
+  letter-spacing: 2em;
+  width: 100vw;
+}
+#code{
+  background-color: #d9234c;
+  padding: 0;
+}
+.button{
+  text-align: center;
+  margin-top: 300px;
+}
+#button{
+  border-radius: 10px;
+  width: 50px;
+  background-color: #d9234c;
+  color: #FFFFFF;
+  outline: none;
 }
