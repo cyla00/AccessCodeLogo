@@ -17,6 +17,7 @@ body{
   padding-right: 23%;
   height: 100vh;
   width: auto;
+  text-transform: uppercase;
   text-align: center;
   align-content: center;
   font-family: Helve;
@@ -36,12 +37,15 @@ body{
 }
 #school{
   font-size: 2em;
-  letter-spacing: 2em;
+  letter-spacing: 3em;
   width: 100vw;
 }
 #code{
   background-color: #d9234c;
   padding: 0;
+}
+.bar{
+  color: #d9234c;
 }
 .button{
   text-align: center;
@@ -50,7 +54,7 @@ body{
 #button{
   border-radius: 10px;
   width: 50px;
-  background-color: #d9234c;
+  background-color: grey;
   color: #FFFFFF;
   outline: none;
 }
